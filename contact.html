@@ -3,42 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="icon" type=image/png  href="imagenes/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/form.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- ANIMATE CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <!-- GOOGLE FONTs -->
-   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
-   
 </head>
 <body>
+    
+    <div class="content">
+        <br>
+        <div><a href="index.html" class="boton-volver">Home</a></div>
 
-    <header class="header">
-        <div class="logo">
-            <img src="css/images/logo.avif" alt="">
+        <h1 class="logo">Contacto <span>LaCocinaDeJuan</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contactanos</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre</label>
+                        <input type="text" name="fullname">
+                    </p>
+                    <p>
+                        <label>Email </label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Telefono</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Información</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Baker Street</li>
+                    <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
+                    <li><i class="fas fa-envelope-open-text"></i> LaCocinaDeJuan@website.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
+                <br>
+                <br>
+                <p>&copy; 2024 La Cocina de Juan. Todos los derechos reservados.</p>
+            </div>
         </div>
 
-        <nav class="navbar">
-            <a  href="index.html">Home</a>
-            <a  href="contact.html">Contacto</a> 
-            <a  href="form.html">Registrarse</a>
-            <a  href="location.html">Sucursales</a>
-            <a  href="servicios.html">Servicios</a> 
-        </nav>
+    </div>
+    
+    <br>
+    <p>&copy; 2024 La Cocina de Juan. Todos los derechos reservados.</p>
+<br>
 
-        <div class="icons">
-            <div id="menu-bar" class="fas fa-bars"></div>
-            <a class="contact-btn" href="#">contact</a>
-        </div>
 
-    </header>
-
-  
-
-    <footer>
-            <p>© 2024 La Cocina de Juan. Todos los derechos reservados.</p>
-    </footer>
 </body>
 </html>
